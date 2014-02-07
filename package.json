@@ -1,0 +1,43 @@
+{
+    "name": "clever-auth-google",
+    "version": "0.0.1",
+    "dependencies": {
+        "passport": "~0.1.18",
+        "connect-redis": "~1.4.6",
+        "q": "*",
+        "sequelize": "1.7.0-beta8",
+        "moment": "",
+        "passport-google-oauth": "~0.1.5",
+        "qs": "*"
+    },
+    "author": {
+        "name": "Clevertech",
+        "email": "info@clevertech.biz",
+        "web": "http://www.clevertech.biz"
+    },
+    "collaborators": [
+        ""
+    ],
+    "description": "CleverStack authentication with Google services",
+    "keywords": [
+        "cleverstack",
+        "clevertech",
+        "cleverstack-module",
+        "cleverstack-backend",
+        "backend"
+    ],
+    "license": "BSD-2-Clause",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/CleverStack/clever-auth-google.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CleverStack/clever-auth-google/issues"
+    },
+    "main": "module.js",
+    "devDependencies": {
+        "chai": "*",
+        "mocha": "*",
+        "sinon": ""
+    }
+}
