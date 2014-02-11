@@ -39,5 +39,9 @@
         "chai": "*",
         "mocha": "*",
         "sinon": ""
-    }
+    },
+    "bundledDependencies": [
+      "clever-orm",
+      "clever-auth"
+    ]
 }
