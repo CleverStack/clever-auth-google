@@ -101,7 +101,7 @@ function installAuth ( step ) {
     return defered.promise;
 }
 
-//copy clever-scv module in test project
+//copy clever-auth-google module in test project
 function copyModule ( step ) {
     var defered = Q.defer()
       , fromDir = path.join( __dirname, '../' )
@@ -183,7 +183,7 @@ function configFiles( step ) {
     return deferred.promise;    
 }
 
-//added clever-scv module in bundledDependencies
+//added clever-auth-google module in bundledDependencies
 function bundled( step ) {
     var deferred = Q.defer()
       , file = path.join( __dirname, '../', prName, 'backend', 'package.json' );
