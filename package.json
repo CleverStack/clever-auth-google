@@ -1,14 +1,17 @@
 {
     "name": "clever-auth-google",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependencies": {
-        "passport": "~0.1.18",
-        "connect-redis": "~1.4.6",
-        "q": "*",
-        "sequelize": "1.7.0-beta8",
-        "moment": "",
-        "passport-google-oauth": "~0.1.5",
-        "qs": "*"
+        "passport": "0.2.0",
+        "connect-redis": "1.4.7",
+        "q": "1.0.0",
+        "sequelize": "1.7.0-rc9",
+        "moment": "2.5.1",
+        "passport-google-oauth": "0.1.5",
+        "qs": "0.6.6"
+    },
+    "scripts": {
+        "test": "grunt test:unit"
     },
     "author": {
         "name": "Clevertech",
@@ -36,9 +39,9 @@
     },
     "main": "module.js",
     "devDependencies": {
-        "chai": "*",
-        "mocha": "*",
-        "sinon": ""
+        "chai": "1.9.0",
+        "mocha": "1.17.1",
+        "sinon": "1.8.2"
     },
     "bundledDependencies": [
       "clever-orm",
