@@ -1,7 +1,7 @@
 {
   "clever-auth-google": {
-    "clientID"     : "486f044b3383cdc29388",
+    "clientID"     : "",
     "callbackURL"  : "http://localhost:8080/auth/google/return",
-    "clientSecret" : "f28246b75d34625decc9d835a15107a51f1e8225"
+    "clientSecret" : ""
   }
 }
