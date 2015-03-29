@@ -33,7 +33,7 @@ module.exports = function(Controller, AuthController, UserService, Exceptions, i
         'redirect_uri'  : config['clever-auth-google'].redirectURL,
       };
 
-      this.send( { url: 'https://accounts.google.com/o/oauth2/auth?' + qs.stringify( params ) }, 200 );
+      this.send({ url: 'https://accounts.google.com/o/oauth2/auth?' + qs.stringify(params)}, 200);
     },
 
     returnAction: function () {
