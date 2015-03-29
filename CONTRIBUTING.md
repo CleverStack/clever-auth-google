@@ -14,15 +14,15 @@ Contributing to a project is not only adding slabs of code, fixing bugs, or crea
 
 There are currently a few resources available to reach out to us:
 
-1. [GitHub Issues](https://github.com/CleverStack/clever-auth/issues)
+1. [GitHub Issues](https://github.com/CleverStack/clever-auth-google/issues)
 2. [Stack Overflow](http://stackoverflow.com/questions/tagged/cleverstack)
 3. [Google Groups/Mailing list](https://groups.google.com/forum/#!forum/clever-stack)
-4. [Gitter](https://gitter.im/CleverStack/clever-auth)
+4. [Gitter](https://gitter.im/CleverStack/clever-auth-google)
 
 ## Submitting Pull Requests
 
 1. Fork the repo
 2. Create a new branch following the [Gitflow](https://www.atlassian.com/git/workflows#!workflow-gitflow) structure.
 3. Refactors and documentation changes do not require a test, but if you're adding a new function please write a tests for that feature.
-4. Please follow the [coding guidelines](https://github.com/CleverStack/clever-auth/blob/master/.jshintrc)
-5. Push your changes and submit a [pull request](https://github.com/CleverStack/clever-auth/compare/) to the master branch.
+4. Please follow the [coding guidelines](https://github.com/CleverStack/clever-auth-google/blob/master/.jshintrc)
+5. Push your changes and submit a [pull request](https://github.com/CleverStack/clever-auth-google/compare/) to the master branch.

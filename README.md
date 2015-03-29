@@ -64,7 +64,7 @@ For more information about how modules (including clever-auth-google) are config
 }
 ```
 
-#### `callbackURL` - the callback (return) url google with return you to.
+#### `callbackURL` - the callback (return) url google will return you to.
 ```
 {
   "clever-auth-google": {
